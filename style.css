@@ -1,0 +1,90 @@
+body{
+    background-image: url(main.jpeg);
+    display: flex;
+    flex: 1;
+
+}
+.MainFrame{
+    background-image: url(bck.jpg);
+    margin: 90px 100px 0px 230px;
+    height: 500px;
+    width: 1100px;
+    
+}
+.ScoreBoard, .Player{
+    color: wheat;
+}
+.Player-1-Panel
+{
+    margin-left: 0px;
+
+    height: 500px;
+    width: 600px;
+  
+    float: left;
+}
+.Player-0-Panel
+{
+    height: 500px;
+    width: 500px;
+    float: left;
+  
+}
+.Btn-New{
+    position: absolute;
+    top: 140px;
+    right: 690px;
+    padding: 15px;
+}
+.Btn-Roll{
+    position: absolute;
+    top: 440px;
+    right: 690px;
+    padding: 15px;
+}
+.Btn-Hold{
+    position: absolute;
+    top: 510px;
+    right: 700px;
+    padding: 15px;
+}
+.ScoreBoard{
+    margin-top: 10px;
+    margin-left: 190px;
+    font-size: 90px;
+}
+.Player{
+    Margin-top:70px;
+    margin-left: 160px;
+    font-size:50px;
+}
+.Active{
+    background-color:black;
+    background:rgba(0,0,0,0.5);
+}
+.Cur-Score{
+    padding: 20px;
+    background-color: yellow;
+    width:90px;
+    height: 60px;
+    margin-left: 170px;
+}
+.Scorep{
+    text-align: center;
+}
+
+.img 
+{
+    position: absolute;
+    top: 220px;
+    right: 690px;
+    width: 90px;
+    box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
+}
+.img1{
+    position: absolute;
+    top: 350px;
+    right: 690px;
+    width: 90px;
+    box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
+}
